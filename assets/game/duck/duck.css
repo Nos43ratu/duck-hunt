@@ -1,0 +1,25 @@
+.duck {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  z-index: 10000;
+  left: -75px;
+  top: 0px;
+  cursor: pointer;
+}
+.paused {
+  animation-play-state: paused !important;
+  background: url("./dead/0.png") !important;
+  /* animation: fallingDown 1s linear forwards !important;       */
+}
+@keyframes fallingDown {
+  0% {
+    background: url("./falling/0.png");
+  }
+  50% {
+    background: url("./falling/1.png");
+  }
+  190% {
+    background: url("./falling/3.png");
+  }
+}

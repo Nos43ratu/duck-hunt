@@ -1,0 +1,174 @@
+.dog {
+  width: 125px;
+  height: 130px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 80px;
+  background: url("./find.png");
+  animation: dog_move 2.8s linear forwards, 1.5s dog_find 2.8s linear,
+    1.5s dog_jump 4.3s linear forwards;
+}
+
+@keyframes dog_move {
+  0% {
+    background: url("./sniff_0.png");
+    left: 0px;
+  }
+
+  5% {
+    background: url("./sniff_1.png");
+    left: 15px;
+  }
+
+  10% {
+    background: url("./sniff_2.png");
+    left: 30px;
+  }
+
+  15% {
+    background: url("./sniff_3.png");
+    left: 45px;
+  }
+
+  20% {
+    background: url("./sniff_4.png");
+    left: 60px;
+  }
+
+  25% {
+    background: url("./sniff_0.png");
+    left: 75px;
+  }
+
+  30% {
+    background: url("./sniff_1.png");
+    left: 90px;
+  }
+
+  35% {
+    background: url("./sniff_2.png");
+    left: 105px;
+  }
+
+  40% {
+    background: url("./sniff_3.png");
+    left: 120px;
+  }
+
+  45% {
+    background: url("./sniff_4.png");
+    left: 135px;
+  }
+
+  50% {
+    background: url("./sniff_0.png");
+    left: 150px;
+  }
+
+  55% {
+    background: url("./sniff_1.png");
+    left: 165px;
+  }
+
+  60% {
+    background: url("./sniff_2.png");
+    left: 180px;
+  }
+
+  65% {
+    background: url("./sniff_3.png");
+    left: 195px;
+  }
+
+  70% {
+    background: url("./sniff_4.png");
+    left: 210px;
+  }
+
+  75% {
+    background: url("./sniff_0.png");
+    left: 225px;
+  }
+
+  80% {
+    background: url("./sniff_1.png");
+    left: 240px;
+  }
+
+  85% {
+    background: url("./sniff_2.png");
+    left: 255px;
+  }
+
+  90% {
+    background: url("./sniff_3.png");
+    left: 270px;
+  }
+
+  95% {
+    background: url("./sniff_4.png");
+    left: 285px;
+  }
+
+  100% {
+    background: url("./sniff_0.png");
+    left: 300px;
+  }
+}
+
+@keyframes dog_find {
+  0% {
+    background: url("./sniff_1.png");
+  }
+
+  25% {
+    background: url("./sniff_0.png");
+  }
+
+  50% {
+    background: url("./sniff_1.png");
+  }
+
+  75% {
+    background: url("./sniff_0.png");
+  }
+
+  100% {
+    background: url("./find.png");
+  }
+}
+
+@keyframes dog_jump {
+  0% {
+    background: url("./jump_0.png");
+    margin-bottom: 100px;
+    margin-left: 15px;
+  }
+
+  25% {
+    background: url("./jump_0.png");
+    margin-bottom: 150px;
+    margin-left: 25px;
+  }
+
+  50% {
+    background: url("./jump_0.png");
+    margin-bottom: 160px;
+    margin-left: 35px;
+  }
+
+  75% {
+    background: url("./jump_1.png");
+    margin-bottom: 160px;
+    margin-left: 45px;
+  }
+
+  99% {
+    background: url("./jump_1.png");
+    margin-left: 45px;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

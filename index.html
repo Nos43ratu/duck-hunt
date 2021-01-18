@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/index.css" />
+    <link rel="stylesheet" href="./assets/controls/control.css" />
+    <link rel="stylesheet" href="./assets/NES/nes.css" />
+    <link rel="stylesheet" href="./assets/tv/tv.css" />
+    <link rel="stylesheet" href="./assets/game/game.css" />
+    <link rel="stylesheet" href="./assets/game/dog/dog.css" />
+    <link rel="stylesheet" href="./assets/game/duck/duck.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="tv">
+        <div id="game" class="screen">
+          <div class="score">00000</div>
+        </div>
+        <div class="control">
+          <div class="speaker"></div>
+          <div class="clock"></div>
+          <div class="buttons">
+            <div id="play" class="pause"></div>
+            <div id="restart"></div>
+          </div>
+        </div>
+        <div class="red"></div>
+      </div>
+      <div class="nes">
+        <div class="nes_top">
+          <div class="nes_logo">
+            <h1>Nintendo</h1>
+            <h2>ENTERTAINMENT SYSTEM</h2>
+          </div>
+          <div class="nes_slot"></div>
+        </div>
+        <div class="nes_bot">
+          <div class="nes_buttons">
+            <div class="nes_power">
+              <div class="nes_light"></div>
+              <div class="nes_start"></div>
+              <div class="nes_reset"></div>
+            </div>
+          </div>
+        </div>
+        <div class="nes_black"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+  <script src="./js/game.js"></script>
+  <script src="./js/duck.js"></script>
+</html>
